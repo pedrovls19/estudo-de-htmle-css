@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'london' ;
+            src: url('OldLondon.ttf') format(truetype),url(OldLondonAlternate.ttf) format(truetype), url('Olondon_.otf') format(opentype) ;
+            font-weight: normal;
+            font-style: normal;
+            /*
+            tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opebtype
+            - truetype-aat (apple advanced typography)
+            - svg
+            */
+        }
+        body{
+            
+        }
+        h1{
+            font-family: 'london';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolorem animi, officiis magni vitae saepe porro nesciunt! Iste beatae mollitia commodi repellendus iure quis quos, excepturi, distinctio voluptatum debitis molestiae!</p>
+</body>
+</html>
